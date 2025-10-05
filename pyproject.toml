@@ -1,0 +1,20 @@
+[project]
+name = "cinerag"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic==0.69.0",
+    "elasticsearch==8.14.0",
+    "fastapi==0.118.0",
+    "numpy==1.26.4",
+    "openai==2.1.0",
+    "prometheus-client==0.23.1",
+    "python-dotenv==1.1.1",
+    "qdrant-client==1.9.2",
+    "requests==2.32.5",
+    "sentence-transformers==3.0.1",
+    "streamlit==1.50.0",
+    "torch>=2.8.0",
+    "tqdm==4.66.4",
+    "uvicorn==0.37.0",
+]

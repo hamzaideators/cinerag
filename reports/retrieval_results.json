@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "backend": "es",
+      "queries": 5,
+      "Recall@5": 0.2,
+      "Recall@10": 0.4,
+      "MRR": 0.237,
+      "nDCG@10": 0.26
+    },
+    {
+      "backend": "qdrant",
+      "queries": 5,
+      "Recall@5": 0.4,
+      "Recall@10": 0.8,
+      "MRR": 0.306,
+      "nDCG@10": 0.418
+    },
+    {
+      "backend": "hybrid",
+      "queries": 5,
+      "Recall@5": 0.6,
+      "Recall@10": 0.8,
+      "MRR": 0.495,
+      "nDCG@10": 0.567
+    },
+    {
+      "backend": "hybrid_rerank",
+      "queries": 5,
+      "Recall@5": 0.8,
+      "Recall@10": 0.8,
+      "MRR": 0.7,
+      "nDCG@10": 0.726
+    }
+  ],
+  "winner": {
+    "backend": "hybrid_rerank",
+    "queries": 5,
+    "Recall@5": 0.8,
+    "Recall@10": 0.8,
+    "MRR": 0.7,
+    "nDCG@10": 0.726
+  }
+}

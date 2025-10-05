@@ -1,0 +1,179 @@
+{
+  "config": {
+    "eval_path": "eval/eval_llm_queries.jsonl",
+    "docs_path": "movies_docs.json",
+    "backend": "hybrid_rerank",
+    "top_k": 5,
+    "num_queries": 10,
+    "num_evaluated": 10
+  },
+  "aggregates": {
+    "relevance": {
+      "mean": 0.925,
+      "median": 1.0,
+      "stdev": 0.121,
+      "min": 0.75,
+      "max": 1.0
+    },
+    "faithfulness": {
+      "mean": 0.85,
+      "median": 1.0,
+      "stdev": 0.211,
+      "min": 0.5,
+      "max": 1.0
+    },
+    "coherence": {
+      "mean": 0.775,
+      "median": 0.75,
+      "stdev": 0.079,
+      "min": 0.75,
+      "max": 1.0
+    },
+    "aspect_coverage": {
+      "mean": 0.875,
+      "median": 1.0,
+      "stdev": 0.212,
+      "min": 0.5,
+      "max": 1.0
+    },
+    "overall": {
+      "mean": 0.856,
+      "median": 0.938,
+      "stdev": 0.135,
+      "min": 0.625,
+      "max": 1.0
+    }
+  },
+  "details": [
+    {
+      "qid": 1,
+      "query": "time-loop romance set in winter",
+      "answer": "For a time-loop romance set in winter, I'd recommend \"The Map of Tiny Perfect Things\" as your best bet. It's a charming teenage love story about two teens trapped in a time loop who explore the magic of their repeated day together. While it's not explicitly set in winter, it fits your time-loop romance criteria perfectly. As a close second, \"When We First Met\" is another great time-loop romance option that plays with the concept of reliving a pivotal moment to change the outcome.",
+      "retrieved_count": 5,
+      "metrics": {
+        "relevance": 0.75,
+        "faithfulness": 0.5,
+        "coherence": 0.75,
+        "aspect_coverage": 0.5,
+        "overall": 0.625
+      }
+    },
+    {
+      "qid": 2,
+      "query": "Christopher Nolan film about identity and magicians",
+      "answer": "Based on your query about a Christopher Nolan film involving identity and magicians, I highly recommend \"The Prestige\". This movie perfectly matches your description, exploring the intense rivalry between two magicians and delving deep into themes of identity, obsession, and deception. The film is a fascinating psychological drama that examines the lengths people will go to in pursuit of professional supremacy and personal secrets.",
+      "retrieved_count": 5,
+      "metrics": {
+        "relevance": 1.0,
+        "faithfulness": 1.0,
+        "coherence": 0.75,
+        "aspect_coverage": 1.0,
+        "overall": 0.9375
+      }
+    },
+    {
+      "qid": 3,
+      "query": "Las Vegas casino heist with an acrobat",
+      "answer": "Based on your query about a Las Vegas casino heist with an acrobat, I'd highly recommend \"Ocean's Eleven\" (2001). This film perfectly matches your description, featuring a sophisticated heist plot set in Las Vegas casinos, though I don't recall a specific acrobat character. While it might not explicitly have an acrobatic performer, the movie is known for its smooth, choreographed heist and ensemble cast led by George Clooney and Brad Pitt. If you're looking for a stylish and entertaining casino robbery film, this is definitely your top pick.",
+      "retrieved_count": 5,
+      "metrics": {
+        "relevance": 0.75,
+        "faithfulness": 0.5,
+        "coherence": 0.75,
+        "aspect_coverage": 0.75,
+        "overall": 0.6875
+      }
+    },
+    {
+      "qid": 4,
+      "query": "South Korean thriller about a train and zombies",
+      "answer": "For a South Korean thriller about a train and zombies, \"Train to Busan\" is absolutely the perfect match! This critically acclaimed film follows passengers fighting to survive a zombie outbreak while trapped on a train traveling from Seoul to Busan. If you enjoy the concept, you might also be interested in \"Seoul Station,\" an animated prequel that explores the origins of the same zombie pandemic.",
+      "retrieved_count": 5,
+      "metrics": {
+        "relevance": 1.0,
+        "faithfulness": 1.0,
+        "coherence": 0.75,
+        "aspect_coverage": 1.0,
+        "overall": 0.9375
+      }
+    },
+    {
+      "qid": 5,
+      "query": "pixar robot cleaning earth alone",
+      "answer": "Based on your query about a robot cleaning Earth alone, WALL\u00b7E is the perfect match! This Pixar animated film follows a lonely robot who continues his cleanup mission on an abandoned Earth after humans have left. The movie perfectly captures the essence of a single robot working to restore the planet, making it an ideal recommendation for your description.",
+      "retrieved_count": 5,
+      "metrics": {
+        "relevance": 1.0,
+        "faithfulness": 1.0,
+        "coherence": 0.75,
+        "aspect_coverage": 1.0,
+        "overall": 0.9375
+      }
+    },
+    {
+      "qid": 6,
+      "query": "blue aliens on Pandora with human avatars",
+      "answer": "Based on your description of blue aliens on Pandora with human avatars, I'd strongly recommend \"Avatar\" and \"Avatar: The Way of Water\". Both films feature the Na'vi, blue-skinned indigenous aliens on the moon Pandora, and the human characters use genetically engineered avatar bodies to interact with them. The first movie introduces this unique world and concept, while the sequel continues the story of the Sully family on Pandora.",
+      "retrieved_count": 5,
+      "metrics": {
+        "relevance": 1.0,
+        "faithfulness": 1.0,
+        "coherence": 0.75,
+        "aspect_coverage": 1.0,
+        "overall": 0.9375
+      }
+    },
+    {
+      "qid": 7,
+      "query": "heist movie with dream within a dream",
+      "answer": "Based on your query for a heist movie with a \"dream within a dream\" concept, I highly recommend \"Inception\". It's the perfect match - the entire film revolves around entering dreams, creating layers of dream states, and executing a complex heist within those dream layers. Christopher Nolan's film is essentially a cerebral heist movie that plays with the concept of nested dreams, making it exactly what you're looking for.",
+      "retrieved_count": 5,
+      "metrics": {
+        "relevance": 1.0,
+        "faithfulness": 1.0,
+        "coherence": 1.0,
+        "aspect_coverage": 1.0,
+        "overall": 1.0
+      }
+    },
+    {
+      "qid": 8,
+      "query": "wizard school with chosen one prophecy",
+      "answer": "Based on your query for a wizard school with a chosen one prophecy, I'd highly recommend the Harry Potter movies, especially \"Harry Potter and the Philosopher's Stone\" and \"Harry Potter and the Order of the Phoenix\". These films perfectly match your description, featuring Harry Potter as the prophesied chosen one who attends Hogwarts School of Witchcraft and Wizardry, where he learns magic and ultimately confronts his destiny against the dark wizard Voldemort. As a bonus, \"The Golden Child\" also features a chosen one theme, though it's more of an action-comedy than a wizard school story.",
+      "retrieved_count": 5,
+      "metrics": {
+        "relevance": 1.0,
+        "faithfulness": 1.0,
+        "coherence": 0.75,
+        "aspect_coverage": 1.0,
+        "overall": 0.9375
+      }
+    },
+    {
+      "qid": 9,
+      "query": "dystopian future with teenagers fighting to death",
+      "answer": "Based on your query about a dystopian future with teenagers fighting to death, I'd recommend \"Tekken\" as the closest match. It's set in a dystopian 2039 where corporations rule and people fight in a brutal tournament. While the fighters aren't strictly teenagers, it comes closest to your description. If you're open to a slightly different take, \"The Running Man\" also offers a dystopian future with a deadly competition, though the participants are adults.",
+      "retrieved_count": 5,
+      "metrics": {
+        "relevance": 0.75,
+        "faithfulness": 0.75,
+        "coherence": 0.75,
+        "aspect_coverage": 0.5,
+        "overall": 0.6875
+      }
+    },
+    {
+      "qid": 10,
+      "query": "superhero team fighting alien invasion in New York",
+      "answer": "Based on your query about a superhero team fighting an alien invasion in New York, I highly recommend \"The Avengers\" (2012). This movie perfectly matches your description, featuring the Avengers team battling an alien invasion in New York City, with Nick Fury assembling heroes like Iron Man, Captain America, Thor, and Hulk to defend Earth. If you want an alternative with a similar theme, \"Justice League: War\" (2014) also features a superhero team fighting an alien invasion, though it's an animated film.",
+      "retrieved_count": 5,
+      "metrics": {
+        "relevance": 1.0,
+        "faithfulness": 0.75,
+        "coherence": 0.75,
+        "aspect_coverage": 1.0,
+        "overall": 0.875
+      }
+    }
+  ]
+}

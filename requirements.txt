@@ -1,0 +1,43 @@
+# ============================================================================
+# DEPRECATED: This file is kept for backward compatibility only
+# ============================================================================
+#
+# Modern uv workflow uses pyproject.toml as the source of truth.
+#
+# Recommended installation:
+#   uv sync
+#
+# This file is auto-generated from pyproject.toml. To regenerate:
+#   uv pip compile pyproject.toml -o requirements.txt
+#
+# If you must use pip directly (not recommended):
+#   pip install -r requirements.txt
+# ============================================================================
+
+# Core ML & Retrieval
+sentence-transformers>=3.0.1
+torch>=2.1.0
+numpy>=1.26.4
+
+# Search & Vector DBs
+elasticsearch>=8.14.0,<9.0.0
+qdrant-client>=1.9.2
+
+# LLM Providers
+openai>=1.0.0
+anthropic>=0.25.0
+
+# Web Framework & API
+fastapi>=0.114.2
+uvicorn>=0.30.6
+requests>=2.32.3
+
+# UI
+streamlit>=1.38.0
+
+# Monitoring
+prometheus-client>=0.20.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.4

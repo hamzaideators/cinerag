@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Reports and generated files
+reports/
+
+# Logs
+*.log
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+
+# Documentation
+README.md
+docs/
+
+# CI/CD
+.github/
+
+# uv cache
+.uv/

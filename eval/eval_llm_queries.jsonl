@@ -1,0 +1,10 @@
+{"qid": 1, "query": "time-loop romance set in winter", "gold": ["tmdb:movie:137312"], "expected_aspects": ["time loop", "romance", "winter setting"]}
+{"qid": 2, "query": "Christopher Nolan film about identity and magicians", "gold": ["tmdb:movie:1124"], "expected_aspects": ["Christopher Nolan", "magicians", "identity theme"]}
+{"qid": 3, "query": "Las Vegas casino heist with an acrobat", "gold": ["tmdb:movie:161"], "expected_aspects": ["Las Vegas", "casino heist", "acrobat"]}
+{"qid": 4, "query": "South Korean thriller about a train and zombies", "gold": ["tmdb:movie:396535"], "expected_aspects": ["South Korean", "train", "zombies"]}
+{"qid": 5, "query": "pixar robot cleaning earth alone", "gold": ["tmdb:movie:10681"], "expected_aspects": ["Pixar", "robot", "Earth cleanup", "loneliness"]}
+{"qid": 6, "query": "blue aliens on Pandora with human avatars", "gold": ["tmdb:movie:19995"], "expected_aspects": ["blue aliens", "Pandora", "avatars", "humans"]}
+{"qid": 7, "query": "heist movie with dream within a dream", "gold": ["tmdb:movie:27205"], "expected_aspects": ["heist", "dreams", "layered reality"]}
+{"qid": 8, "query": "wizard school with chosen one prophecy", "gold": ["tmdb:movie:671"], "expected_aspects": ["wizards", "school", "chosen one", "prophecy"]}
+{"qid": 9, "query": "dystopian future with teenagers fighting to death", "gold": ["tmdb:movie:70160"], "expected_aspects": ["dystopian", "teenagers", "survival game", "death"]}
+{"qid": 10, "query": "superhero team fighting alien invasion in New York", "gold": ["tmdb:movie:24428"], "expected_aspects": ["superhero team", "alien invasion", "New York"]}
